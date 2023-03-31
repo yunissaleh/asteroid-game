@@ -1,4 +1,4 @@
-# asteroid-game
+# Asteroids Game
 Asteroids Game is a simple game where the player controls a ship and must shoot asteroids to avoid collision while trying to pass to the next level.
 Created using OpenGl & C++. 
 
