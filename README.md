@@ -12,5 +12,4 @@ Once all of the hearts are consumed, the player loses, and the game resets its s
 The collisions are detected by rounding the (ship & asteroid\bullet & asteroid) positions and checking if they are equal. If it's true, the collision is achieved, and the player takes damage (ship and asteroid collision) or asteroids get destroyed (bullet collision). Once a bullet collision happens, the asteroid is removed by moving it out of the screen bounds till the next level is reached, and asteroid positions are reset.
 
 
-# Sound Effects
 The game includes a shooting sound effect using playSound(). If the program fails to run, you can either comment line 230 or make sure to add Winmm.lib dependency by going to project settings -> linker -> input -> additional dependencies -> add Winmm.lib.
